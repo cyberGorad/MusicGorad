@@ -7,5 +7,5 @@ Nom du projets:
 	- Plateforme de telechargement de téléchargements
 
 base de données:
-	users:tsilavina2610
+	users:administrateur
 	password = motdepassesupersecurise
