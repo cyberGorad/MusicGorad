@@ -1,6 +1,5 @@
 AUTEUR:
 	- RAKOTOARIVONY Anjarasoa Tsilavina Alifera     (101991)
-	- Velonjara Eldy Haryo  (101736)
 
 
 Nom du projets:
