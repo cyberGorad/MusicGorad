@@ -1,0 +1,304 @@
+#main{
+   background-image: url(image/sky/perfection.jfif);
+   background-attachment: fixed;
+   background-size: cover;
+   overflow: hidden; /* Emp�che le d�filement de la page pendant le chargement */
+}
+
+#my_header{
+    width: 100%;
+    height: 700px;
+    background-image: url("image/header.jpg");
+    background-size: contain;
+  
+}
+
+.avatar {
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left:10px;
+  margin-top:-60px;
+  margin-right:2px;
+  
+  }
+
+
+.my__offcanvas {
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  border-color:  rgb(255, 3, 255);
+  position:relative;
+  float:right;
+  visibility: hidden;
+  
+
+
+}
+.my__offcanvas:hover {
+  transition: 1s;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgb(255, 3, 255),inset 0 0 20px rgb(255, 3, 255);
+
+ 
+
+  
+
+}
+
+.btn__inscrire {
+  border-radius: 10px;
+  background-color: transparent;
+  border-color:  rgb(255, 3, 255);
+
+}
+
+.btn__inscrire:hover {
+  border-radius: 10px;
+  transition: 1s;
+  background-color: transparent;
+  box-shadow: 0 0 20px rgb(255, 3, 255),inset 0 0 20px rgb(255, 3, 255);
+  
+}
+#my_header_music{
+  width: 100%;
+  height: 700px;
+  background-image: url("image/header.jpg");
+  background-size: contain;
+}
+
+#my_header_video{
+  width: 100%;
+  height: 700px;
+  background-image: url("image/Copia\ de\ Neon\ Light\ TikTok\ Background\ Video.jfif");
+  background-size: contain;
+}
+
+#my_header_application{
+  width: 100%;
+  height: 700px;
+  background-image: url("image/NFT\ Marketplace\ Website.jfif");
+  background-size: contain;
+}
+
+.nav .nav-item .nav-link {
+  color: white;
+
+}
+
+
+
+
+#my_title{
+    font-size: 70px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top:250px ;
+    padding-left: 80px;
+}
+
+@media screen and (max-width: 700px) {
+
+
+  .btn__inscrire {
+    visibility: hidden;
+  }
+
+  .my__offcanvas {
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border-color:  rgb(255, 3, 255);
+    position:relative;
+    float:right;
+    visibility: visible;
+    top:-80px;
+    transition: 2s;
+    
+  
+  
+  }
+  .nav .nav-item .nav-link {
+  display: none;
+  border-color: transparent;
+  
+  }
+  
+  #my_title {
+    font-size:40px;
+  }
+
+  #my_button{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+    width: 135px;
+    margin-left: 80px;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 10px;
+    background-color:blue;
+}
+
+}
+
+
+#my_title_bas{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top:5px ;
+    padding-left: 80px;
+}
+
+#my_button{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+    width: 135px;
+    margin-left: 80px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:rgb(87, 7, 87);
+}
+
+#my_navbar{
+    color: white;
+}
+
+#sign:hover{
+    color: white;
+
+}
+
+#lien:hover{
+    color: blue;
+}
+
+#transform{
+    transition: 3.4s;
+}
+
+
+
+/*SPINNER*/
+.spinner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); /* Fond semi-transparent pour assombrir la page */
+    z-index: 1000;
+  }
+
+  .custom-spinner {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 6px solid #3498db;
+    border-top: 6px solid transparent;
+    border-radius: 50%;
+    animation: custom-spin 1s linear infinite;
+  }
+
+  @keyframes custom-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /*SPINNER END*/
+
+  /*auto ryper*/
+  #auto-typing-text {
+    border-right: 1px solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block; /* Permet � la bordure de fonctionner correctement */
+
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 175);
+    padding-left: 80px;
+   
+
+  }
+
+
+  /*Button*/
+  .button {
+    border-radius: 4px;
+    background-color: #040d58;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    text-align: ;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+  .neon_effect {
+    animation: neon infinite;
+  }
+
+@keyframes neon {from{ /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */background-color: red;} to{/*box-shadow: 0 0 20px rgb(255, 3, 255),inset 0 0 20px rgb(255, 3, 255);*/background-color: blue;}}
+
+
+#playlist{
+  object-fit: cover;
+}
+
+
+        /* Styles CSS pour le formulaire */
+        
+      
+
+
+
+
+

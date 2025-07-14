@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(image/fond.jfif);
+            background-size: cover;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            color: rgb(255, 3, 255);
+            margin-top: 50px;
+        }
+        form {
+            margin-top: 20px;
+            background-color: black;
+            padding: 20px;
+            border-radius: 10px;
+            border: 5px solid  rgb(255, 3, 255);
+            
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        form:hover{
+            transition: 0.5s;
+            box-shadow: 0 0 20px rgb(255, 3, 255),inset 0 0 20px rgb(255, 3, 255);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: white;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="text"]:hover,
+        input[type="email"]:hover,
+        input[type="password"]:hover {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgb(255, 3, 255),inset 0 0 10px rgb(255, 3, 255);
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color:  rgb(66, 35, 66);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+        }
+        input[type="submit"]:hover {
+            box-shadow: 0 0 20px rgb(255, 6, 255), inset 0 0 20px rgb(255, 6, 255);
+    
+        }
+        .privacy-policy {
+            margin-top: 20px;
+            text-align: left;
+            padding-left: 20px; /* Ajout d'un padding pour le texte de confidentialité */
+        }
+        .privacy-policy input[type="checkbox"] {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .other-links {
+            margin-top: 20px;
+        }
+        .other-links a {
+            text-decoration: none;
+            color: #007bff;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Inscription</h2>
+    <form action="inscription.php" method="post">
+        <label for="username">Nom d'utilisateur :</label><br>
+        <input type="text" id="username" name="username" required><br>
+        
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="password">Mot de passe :</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="password">Vérifier le mot de passe:</label><br>
+        <input type="password" id="password" name="verify_password" required><br>
+        
+        <div class="privacy-policy">
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">Je suis d'accord avec les <a href="politique_de_confidentialite.html">termes et conditions</a>.</label>
+        </div>
+        <input type="submit" value="S'inscrire">
+    </form>
+    <div class="other-links">
+        <a href="index.html">Retour</a>
+        <a href="connexion.html">Se connecter</a>
+    </div>
+</body>
+</html>
